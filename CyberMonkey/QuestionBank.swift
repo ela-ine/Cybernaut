@@ -24,7 +24,7 @@ class QuestionBank {
         list.append(Question(questionText: "You should only chat with people you...", choiceA: "Think have cool names", choiceB: "Know in real life", choiceC: "Get compliments from", choiceD: "Meet in chatrooms", correctAnswerText: 1))
         list.append(Question(questionText: "Hacking means...", choiceA: "Personal info accessed by strangers", choiceB: "Chatting online", choiceC: "Blocking a person online", choiceD: "A horse ride", correctAnswerText: 0))
         list.append(Question(questionText: "I should stay anonymous online by...", choiceA: "Just using my first name", choiceB: "Using my real name", choiceC: "Using my last name", choiceD: "Using a nickname", correctAnswerText: 3))
-        list.append(Question(questionText: "Phishing", choiceA: "Catching fish", choiceB: "False emails", choiceC: "Texting", choiceD: "Surfing online", correctAnswerText: 1))
+        list.append(Question(questionText: "Phishing is...", choiceA: "Catching fish", choiceB: "False emails", choiceC: "Texting", choiceD: "Surfing online", correctAnswerText: 1))
         list.append(Question(questionText: "Info to always keep to yourself or a trusted adult is?", choiceA: "An email address", choiceB: "Passwords", choiceC: "The date", choiceD: "The weather", correctAnswerText: 1))
         list.append(Question(questionText: "To stop strangers locating you...", choiceA: "Leave your device at home", choiceB: "Use a nickname", choiceC: "Use Google", choiceD: "Switch location services off", correctAnswerText: 3))
         list.append(Question(questionText: "Do your friends have privacy switched on if you do?", choiceA: "No", choiceB: "Yes", choiceC: "Probably", choiceD: "I will have to ask him", correctAnswerText: 3))

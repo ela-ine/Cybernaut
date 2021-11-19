@@ -80,18 +80,18 @@ class GameMenuView: UIStackView {
         self.isUserInteractionEnabled = true
         //set up a label
         let prompt = UILabel()
-        prompt.font = UIFont(name: "PixelDigivolve", size: 30)
+        prompt.font = UIFont(name: "IBMPlexMono-SemiBold", size: 20)
         prompt.textColor = UIColor.white
         prompt.backgroundColor = hexStringToUIColor(hex: "513965")
         prompt.textAlignment = .center
         prompt.adjustsFontSizeToFitWidth = true
         prompt.numberOfLines = 0
         prompt.layer.masksToBounds = true
-        prompt.layer.cornerRadius = 10.0
+        prompt.layer.cornerRadius = 5.0
         self.addArrangedSubview(prompt)
         for i in 1...4 {
             let label = UILabel()
-            label.font = UIFont(name: "PixelDigivolve", size: 30)
+            label.font = UIFont(name: "IBMPlexMono-SemiBold", size: 20)
             label.textColor = UIColor.white
             label.backgroundColor = hexStringToUIColor(hex: "B53389")
             label.textAlignment = .center
@@ -99,7 +99,7 @@ class GameMenuView: UIStackView {
             label.adjustsFontSizeToFitWidth = true
             label.numberOfLines = 0
             label.layer.masksToBounds = true
-            label.layer.cornerRadius = 10.0
+            label.layer.cornerRadius = 5.0
             self.addArrangedSubview(label)
         }
         configureTapGestures()
