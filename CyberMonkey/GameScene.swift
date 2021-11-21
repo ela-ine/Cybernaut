@@ -102,6 +102,16 @@ class GameMenuView: UIStackView {
             label.layer.cornerRadius = 5.0
             self.addArrangedSubview(label)
         }
+        
+        let desc = UILabel()
+        desc.font = UIFont(name: "IBMPlexMono-SemiBold", size: 20)
+        desc.textColor = UIColor.white
+        desc.textAlignment = .center
+        desc.adjustsFontSizeToFitWidth = true
+        desc.text = "Answer correctly to revive!"
+        desc.numberOfLines = 0
+        desc.layer.masksToBounds = true
+        self.addArrangedSubview(desc)
         configureTapGestures()
     }
     required init(coder: NSCoder) {
@@ -493,6 +503,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate, StackViewDelegate {
         // Scale out title & ready label.
         let scale = SKAction.scale(to: 0, duration: 0.4)
         fgNode.childNode(withName: "Title")!.run(scale)
+        fgNode.childNode(withName: "Subtitle")!.run(scale)
         fgNode.childNode(withName: "Ready")!.run(
             SKAction.sequence(
                 [SKAction.wait(forDuration: 0.2), scale]))

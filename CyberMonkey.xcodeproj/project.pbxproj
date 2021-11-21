@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		318EFC9527483A75004B6E9A /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 318EFC9427483A75004B6E9A /* IBMPlexMono-Medium.ttf */; };
-		318EFC9727483C0C004B6E9A /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 318EFC9627483C0C004B6E9A /* IBMPlexMono-SemiBold.ttf */; };
+		31F8EC5E274B043800BA765B /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F8EC5C274B043800BA765B /* IBMPlexMono-SemiBold.ttf */; };
+		31F8EC5F274B043800BA765B /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F8EC5D274B043800BA765B /* IBMPlexMono-Medium.ttf */; };
 		841522C520696FF800BED8FA /* TF.sks in Resources */ = {isa = PBXBuildFile; fileRef = 841522C420696FF800BED8FA /* TF.sks */; };
 		841822512041F3BE00CCC6E4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841822502041F3BE00CCC6E4 /* GameState.swift */; };
 		841E477B2051ADA8005A43A4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E477A2051ADA8005A43A4 /* Question.swift */; };
@@ -52,8 +52,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		318EFC9427483A75004B6E9A /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexMono-Medium.ttf"; path = "../../../Desktop/IBM_Plex_Mono/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
-		318EFC9627483C0C004B6E9A /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexMono-SemiBold.ttf"; path = "../../../Desktop/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		31F8EC5C274B043800BA765B /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		31F8EC5D274B043800BA765B /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
 		841522C420696FF800BED8FA /* TF.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TF.sks; sourceTree = "<group>"; };
 		841822502041F3BE00CCC6E4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		841E477A2051ADA8005A43A4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 			children = (
 				84CF1778204E32BE00C44921 /* Pixel Digivolve Italic.otf */,
 				84CF1779204E32BE00C44921 /* Pixel Digivolve.otf */,
-				318EFC9427483A75004B6E9A /* IBMPlexMono-Medium.ttf */,
-				318EFC9627483C0C004B6E9A /* IBMPlexMono-SemiBold.ttf */,
+				31F8EC5D274B043800BA765B /* IBMPlexMono-Medium.ttf */,
+				31F8EC5C274B043800BA765B /* IBMPlexMono-SemiBold.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -267,11 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318EFC9727483C0C004B6E9A /* IBMPlexMono-SemiBold.ttf in Resources */,
 				84E4858A203F260800F9A1E4 /* PlatformArrow.sks in Resources */,
 				849984612043838700A35957 /* Platform3Across.sks in Resources */,
 				84C9276C203E87FB00711A66 /* Main.storyboard in Resources */,
 				84C92763203E87FB00711A66 /* GameScene.sks in Resources */,
+				31F8EC5E274B043800BA765B /* IBMPlexMono-SemiBold.ttf in Resources */,
 				847FEDA520448A4A002DEA29 /* Assets.xcassets in Resources */,
 				84C9276E203E87FB00711A66 /* Assets.xcassets in Resources */,
 				84C92771203E87FB00711A66 /* LaunchScreen.storyboard in Resources */,
@@ -279,7 +279,7 @@
 				847FEDA920448FC8002DEA29 /* SmokeTrail.sks in Resources */,
 				841522C520696FF800BED8FA /* TF.sks in Resources */,
 				84C92765203E87FB00711A66 /* Actions.sks in Resources */,
-				318EFC9527483A75004B6E9A /* IBMPlexMono-Medium.ttf in Resources */,
+				31F8EC5F274B043800BA765B /* IBMPlexMono-Medium.ttf in Resources */,
 				84C9277E203F23E800711A66 /* Break5Across.sks in Resources */,
 				8449C3F820577F11003C7DE8 /* Coin2.sks in Resources */,
 				84CF177A204E32BE00C44921 /* Pixel Digivolve Italic.otf in Resources */,
